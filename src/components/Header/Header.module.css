@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: rgb(65,122,156);
+  background: linear-gradient(90deg, rgba(65,122,156,1) 0%, rgba(109,157,174,1) 100%);
+  margin: 7px;
+  padding: 8px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 2rem;
+  height: 2rem;
+  width: 29px;
+  height: 29px;
+}
+
+.text {
+  color: var(--gray-200);
+  margin: 0 12px;
+}
+
+.actionsContainer {
+  display: flex;
+  gap: 8px;
+}
+
+.actionsContainer .actionButton {
+  padding: 5px;
+  cursor: pointer;
+  background-color: var(--gray-400);
+  box-shadow: inset 2px 2px 0px rgba(255, 255, 255, 0.5), inset -2px -2px 0px rgba(0, 0, 0, 0.49);
+}
+
